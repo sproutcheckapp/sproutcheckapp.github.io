@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Sprout Check</title>
+  <meta name="description" content="Sprout Check Privacy Policy. Everything stays on your offline device.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/sc_wordmark_nobg.png" alt="Sprout Check Logo" style="height: 32px; width: auto; object-fit: contain;">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html#features">Features</a>
+        <a href="privacy.html" style="color: var(--primary);">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="policy-container">
+      <div class="policy-header">
+        <h1>Sprout Check — Privacy Policy</h1>
+        <div class="policy-meta">Last updated: April 2026</div>
+      </div>
+
+      <div class="policy-content">
+        <section>
+          <h2>Overview</h2>
+          <p>
+            Sprout Check is a fully offline gardening app. We do not operate a backend server, do not collect personal information, and do not create user accounts. Your garden data never leaves your device.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data Stored on Your Device</h2>
+          <p>Sprout Check stores the following data locally in a database on your device:</p>
+          <ul>
+            <li>Your plants, plots, watering logs, and tasks</li>
+            <li>Your approximate location (latitude and longitude) if you choose to set it</li>
+            <li>Your USDA hardiness zone and frost dates</li>
+            <li>Your app preferences (temperature unit, notification settings)</li>
+          </ul>
+          <p>
+            <strong>This data is never transmitted to us or any third party, and is deleted when you uninstall the app.</strong>
+          </p>
+        </section>
+
+        <section>
+          <h2>Network Requests</h2>
+          <p>Sprout Check makes the following outbound requests, all initiated by you:</p>
+          
+          <div style="overflow-x: auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Service</th>
+                  <th>Purpose</th>
+                  <th>Data sent</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>NOAA / National Weather Service</strong><br><small>(api.weather.gov)</small></td>
+                  <td>Local weather forecast</td>
+                  <td>Your latitude and longitude</td>
+                </tr>
+                <tr>
+                  <td><strong>OpenStreetMap Nominatim</strong><br><small>(nominatim.openstreetmap.org)</small></td>
+                  <td>Convert coordinates to ZIP code for zone lookup</td>
+                  <td>Your latitude and longitude</td>
+                </tr>
+                <tr>
+                  <td><strong>PHZ Mapping API</strong><br><small>(phzmapi.org)</small></td>
+                  <td>Look up your USDA hardiness zone</td>
+                  <td>Your ZIP code</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>
+            No other network requests are made. No advertising networks, analytics services, or tracking SDKs are included.
+          </p>
+        </section>
+
+        <section>
+          <h2>Location</h2>
+          <p>
+            Sprout Check requests access to your device location solely to provide local weather forecasts and to determine your USDA hardiness zone. Your coordinates are sent only to the services listed above. You may enter your location manually in Settings to avoid granting location permission.
+          </p>
+        </section>
+
+        <section>
+          <h2>Notifications</h2>
+          <p>
+            Watering reminders and weather alerts are delivered as local notifications generated entirely on your device. No notification data is sent to any server.
+          </p>
+        </section>
+
+        <section>
+          <h2>Children's Privacy</h2>
+          <p>
+            Sprout Check does not knowingly collect any information from children under 13.
+          </p>
+        </section>
+
+        <section>
+          <h2>Changes to This Policy</h2>
+          <p>
+            If this policy changes, the updated version will be posted at this URL with a revised date.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            Questions? Email us at <a href="mailto:sproutcheckapp@gmail.com">sproutcheckapp@gmail.com</a>
+          </p>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="assets/sc_wordmark_nobg.png" alt="Sprout Check">
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <p style="color: #718096; font-size: 0.875rem;">&copy; 2026 Sprout Check. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
