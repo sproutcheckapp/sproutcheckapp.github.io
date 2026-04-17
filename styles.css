@@ -406,11 +406,15 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
   .nav-container {
-    padding: 1rem 1.25rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
   }
 
   .nav-links {
-    gap: 1.25rem;
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: center;
   }
 
   .nav-links a {
