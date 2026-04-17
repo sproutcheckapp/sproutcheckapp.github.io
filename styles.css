@@ -175,6 +175,26 @@ header {
   display: inline-block;
 }
 
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--secondary);
+  color: white;
+  padding: 0.875rem 1.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: white;
+  background-color: #1a252f; /* slightly darker secondary */
+}
+
 .hero-visual {
   position: relative;
   display: flex;
